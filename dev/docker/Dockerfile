@@ -17,7 +17,7 @@
 # under the License.
 #
 
-FROM maven:3.9.8-amazoncorretto-21-al2023
+FROM maven:3.9.12-amazoncorretto-21-al2023
 
 RUN apt-get update
 RUN apt-get install -y \
